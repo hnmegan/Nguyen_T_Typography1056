@@ -1,7 +1,6 @@
 body
 {
-	background: url(../images/marble_background.jpg);
-	font-family: 'Playfair Display', Cochin, sans-serif;
+	font-family: Didot;
 }
 main
 {
@@ -14,22 +13,18 @@ a
 	text-decoration: none;
 	color: white;
 }
-i
-{
-	font-size: 20px;
-}
 
 .hidden
 {
 	display: none;
 }
 
+
 /*HEADER*/
 .mainHeader 
 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
   background: #4D6064;
 }
 #logo
@@ -49,16 +44,266 @@ nav ul li
 	display: inline;
 	padding: 30px;
 }
+li a:hover
+{
+	color: green;
+}
 
-background: #4D6064;
-background: #B7B7B7;
-background: #D8D8D8;
-border: 1px solid #979797;
-background: #707070;
-background: #707070;
-font-family: Didot;
-font-size: 22px;
-color: #FFFFFF;
-text-align: justify;
-background: #FFFFFF;
-background: #FFFFFF;
+
+/*IMPORTANT*/
+
+.important
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 1240px;
+	background: red;
+}
+
+#membership
+{
+	background: #EBEBEB;
+	width: 620px;
+	height: 50px;
+	padding: 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+#fundraising
+{
+	background: #B7B7B7;
+	width: 620px;
+	height: 50px;
+	padding: 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.important h3 p
+{
+	align-items: center;
+	justify-content: space-around;
+}
+
+.important i
+{
+	font-size: 15px;
+	font-family: Didot-italic;
+}
+
+.important h3
+{
+	font-size: 20px;
+	font-family: Didot-bold;
+	
+}
+/*BANNER*/
+.banner
+{
+	background: url(../images/Banner_typo.jpg);
+	width: 1240px;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.banner p
+{
+	color: white;
+	font-family: Didot-bold;
+	font-size: 40px ;
+}
+
+/*ABOUT*/
+.about
+{
+	background: #4D6064;
+	color: white;
+	padding: 30px 90px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#drop-cap 
+{
+	font-size: 70px;
+	line-height: 40px;
+	float: left;
+	margin: 10px 15px 0 0;
+}
+
+
+/*MISSION*/
+.mission
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+
+}
+
+.mission h2
+{
+	font-size: 30px;
+	text-align: center;
+	color: #252525;
+	padding: 20px;
+}
+.mission
+{
+	color: #252525;
+	padding: 30px 90px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+/*handsOn*/
+.handsOn
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	background-color: #EBEBEB;
+	height: 300px;
+}
+#Text
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+	padding: 20px 20px;
+
+}
+.handsOn img
+{
+	height: 250px;
+	margin-top: 25px;
+
+}
+
+/*rainbow*/
+.rainbow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+#left
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+#left img
+{
+	width: 280px;
+	margin-top: 25px;
+}
+
+#right
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	padding: 20px 0;
+	text-align: justify;
+}
+
+/*photos*/
+.photos
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	background-color: #EBEBEB;
+	height: 220px;
+
+
+}
+
+.photos img
+{
+	height: 150px;
+	margin-top: 30px;
+	
+
+}
+
+------------------
+footer
+{
+	background: #252525;
+	display: flex;
+	align-items: center;
+}
+
+footer nav
+{
+	align-items: center;
+}
+
+footer nav ul li
+{
+	display: inline;
+	padding: 50px;
+}
+
+
+.bottomLogo img
+{
+	width: 130px;
+	
+	margin: 60px 100px;
+}
+}
+
+.social
+{
+	display: flex;
+	align-items: flex-end;
+}
+.social ul li
+{
+	display: inline;
+	padding: 60px;
+}
+
+.social img
+{
+	height: 30px;
+}
+
+.social img:hover
+{
+	height: 40px;
+}
+
+
+
+
