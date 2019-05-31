@@ -1,0 +1,64 @@
+body
+{
+	background: url(../images/marble_background.jpg);
+	font-family: 'Playfair Display', Cochin, sans-serif;
+}
+main
+{
+	width: 1240px;
+	margin: 0 auto;
+
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+i
+{
+	font-size: 20px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/*HEADER*/
+.mainHeader 
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: #4D6064;
+}
+#logo
+{
+	width: 80%;
+	margin: 10px 30px;
+}
+nav
+{
+	display: flex;
+	align-items: flex-end;
+
+}
+
+nav ul li
+{
+	display: inline;
+	padding: 30px;
+}
+
+background: #4D6064;
+background: #B7B7B7;
+background: #D8D8D8;
+border: 1px solid #979797;
+background: #707070;
+background: #707070;
+font-family: Didot;
+font-size: 22px;
+color: #FFFFFF;
+text-align: justify;
+background: #FFFFFF;
+background: #FFFFFF;
