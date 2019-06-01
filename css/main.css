@@ -1,6 +1,5 @@
-body
-{
-	font-family: Didot;
+body{
+	font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
 }
 main
 {
@@ -36,6 +35,7 @@ nav
 {
 	display: flex;
 	align-items: flex-end;
+	padding: 20px;
 
 }
 
@@ -135,12 +135,17 @@ li a:hover
 	text-align: justify;
 }
 
+.about p 
+{
+	margin: 20px 0;
+}
+
 #drop-cap 
 {
 	font-size: 70px;
 	line-height: 40px;
 	float: left;
-	margin: 10px 15px 0 0;
+	margin: 6px 15px 0 0;
 }
 
 
@@ -168,9 +173,13 @@ li a:hover
 	padding: 30px 90px;
 	font-size: 18px;
 	line-height: 30px;
-	text-align: justify;
+	text-align: left;
 }
 
+#list
+{
+	list-style-type: circle;
+}
 /*handsOn*/
 .handsOn
 {
@@ -192,6 +201,12 @@ li a:hover
 	padding: 20px 20px;
 
 }
+
+#Text p
+{
+	font-style: italic;
+}
+
 .handsOn img
 {
 	height: 250px;
@@ -207,6 +222,7 @@ li a:hover
 	justify-content: space-around;
 	margin-bottom: 30px;
 }
+
 
 #left
 {
@@ -234,6 +250,11 @@ li a:hover
 	text-align: justify;
 }
 
+#right p
+{
+	margin: 20px 0;
+}
+
 /*photos*/
 .photos
 {
@@ -243,67 +264,30 @@ li a:hover
 	justify-content: space-around;
 	background-color: #EBEBEB;
 	height: 220px;
-
-
 }
 
 .photos img
 {
 	height: 150px;
-	margin-top: 30px;
-	
-
+	margin-top: 30px;	
 }
 
-------------------
+/*footer*/
+
 footer
 {
-	background: #252525;
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
+  background: #EBEBEB;
 }
 
-footer nav
+
+#last
 {
 	align-items: center;
-}
-
-footer nav ul li
-{
-	display: inline;
-	padding: 50px;
-}
-
-
-.bottomLogo img
-{
-	width: 130px;
-	
-	margin: 60px 100px;
-}
-}
-
-.social
-{
-	display: flex;
-	align-items: flex-end;
-}
-.social ul li
-{
-	display: inline;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
 	padding: 60px;
+
 }
-
-.social img
-{
-	height: 30px;
-}
-
-.social img:hover
-{
-	height: 40px;
-}
-
-
-
-
