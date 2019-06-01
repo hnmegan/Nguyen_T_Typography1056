@@ -1,0 +1,293 @@
+body{
+	font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+}
+main
+{
+	width: 1240px;
+	margin: 0 auto;
+
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.hidden
+{
+	display: none;
+}
+
+
+/*HEADER*/
+.mainHeader 
+{
+  display: flex;
+  justify-content: space-between;
+  background: #4D6064;
+}
+#logo
+{
+	width: 80%;
+	margin: 10px 30px;
+}
+nav
+{
+	display: flex;
+	align-items: flex-end;
+	padding: 20px;
+
+}
+
+nav ul li
+{
+	display: inline;
+	padding: 30px;
+}
+li a:hover
+{
+	color: green;
+}
+
+
+/*IMPORTANT*/
+
+.important
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 1240px;
+	background: red;
+}
+
+#membership
+{
+	background: #EBEBEB;
+	width: 620px;
+	height: 50px;
+	padding: 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+#fundraising
+{
+	background: #B7B7B7;
+	width: 620px;
+	height: 50px;
+	padding: 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.important h3 p
+{
+	align-items: center;
+	justify-content: space-around;
+}
+
+.important i
+{
+	font-size: 15px;
+	font-family: Didot-italic;
+}
+
+.important h3
+{
+	font-size: 20px;
+	font-family: Didot-bold;
+	
+}
+/*BANNER*/
+.banner
+{
+	background: url(../images/Banner_typo.jpg);
+	width: 1240px;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.banner p
+{
+	color: white;
+	font-family: Didot-bold;
+	font-size: 40px ;
+}
+
+/*ABOUT*/
+.about
+{
+	background: #4D6064;
+	color: white;
+	padding: 30px 90px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.about p 
+{
+	margin: 20px 0;
+}
+
+#drop-cap 
+{
+	font-size: 70px;
+	line-height: 40px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+
+
+/*MISSION*/
+.mission
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+
+}
+
+.mission h2
+{
+	font-size: 30px;
+	text-align: center;
+	color: #252525;
+	padding: 20px;
+}
+.mission
+{
+	color: #252525;
+	padding: 30px 90px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+}
+
+#list
+{
+	list-style-type: circle;
+}
+/*handsOn*/
+.handsOn
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	background-color: #EBEBEB;
+	height: 300px;
+}
+#Text
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+	padding: 20px 20px;
+
+}
+
+#Text p
+{
+	font-style: italic;
+}
+
+.handsOn img
+{
+	height: 250px;
+	margin-top: 25px;
+
+}
+
+/*rainbow*/
+.rainbow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+
+#left
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+#left img
+{
+	width: 280px;
+	margin-top: 25px;
+}
+
+#right
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	padding: 20px 0;
+	text-align: justify;
+}
+
+#right p
+{
+	margin: 20px 0;
+}
+
+/*photos*/
+.photos
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	background-color: #EBEBEB;
+	height: 220px;
+}
+
+.photos img
+{
+	height: 150px;
+	margin-top: 30px;	
+}
+
+/*footer*/
+
+footer
+{
+  display: flex;
+  align-items: center;
+  background: #EBEBEB;
+}
+
+
+#last
+{
+	align-items: center;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	padding: 60px;
+
+}
